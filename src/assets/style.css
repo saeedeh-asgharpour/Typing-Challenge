@@ -1,0 +1,400 @@
+/*--------------------------------
+
+Nucleo Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Nucleo';
+  src: url('../../fonts/Nucleo.eot');
+  src: url('../../fonts/Nucleo.eot') format('embedded-opentype'), url('../../fonts/Nucleo.woff2') format('woff2'), url('../../fonts/Nucleo.woff') format('woff'), url('../../fonts/Nucleo.ttf') format('truetype'), url('../../fonts/Nucleo.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+a {
+  color: #608CEE;
+  text-decoration: none;
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+header {
+  text-align: center;
+  padding: 80px 0 48px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+  border-radius: .25em;
+  transition: background 0.2s;
+  user-select: none;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+}
+
+ul li:hover {
+  background: #f8f8f8;
+}
+
+ul p, ul em, ul input {
+  display: block;
+  font-size: 1.1rem;
+  color: rgba(0,0,0,0.6);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  max-width: 11rem;
+}
+
+ul p {
+  padding: 10px 0;
+}
+
+ul p::selection, ul em::selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul p::-moz-selection, ul em::-moz-selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul em {
+  margin-bottom: 8px;
+}
+
+ul em::before {
+  content: '[';
+}
+ul em::after {
+  content: ']';
+}
+
+ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/* --------------------------------
+
+icons
+
+-------------------------------- */
+.icon {
+  display: inline-block;
+  font: normal normal normal 32px/1 'Nucleo';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  font icons
+-------------------------*/
+
+.icon-reload::before {
+    content: "\ea02";
+}
+
+.icon-stock-2::before {
+    content: "\ea03";
+}
+
+.icon-settings-gear-64::before {
+    content: "\ea04";
+}
+
+.icon-c-add::before {
+    content: "\ea05";
+}
+
+.icon-e-remove::before {
+    content: "\ea06";
+}
+
+.icon-arrow-right::before {
+    content: "\ea07";
+}
+
+.icon-comment-add::before {
+    content: "\ea08";
+}
+
+.icon-menu-dots::before {
+    content: "\ea09";
+}
+
+.icon-i-add::before {
+    content: "\ea0a";
+}
+
+.icon-arrow-w::before {
+    content: "\ea0b";
+}
+
+.icon-whiskers::before {
+    content: "\ea0c";
+}
+
+.icon-woman-25::before {
+    content: "\ea0d";
+}
+
+.icon-camera-2::before {
+    content: "\ea0e";
+}
+
+.icon-favorite::before {
+    content: "\ea0f";
+}
+
+.icon-app::before {
+    content: "\ea10";
+}
+
+.icon-content-360deg::before {
+    content: "\ea11";
+}
+
+.icon-zoom-2::before {
+    content: "\ea12";
+}
+
+.icon-star::before {
+    content: "\ea13";
+}
+
+.icon-screen-rotation::before {
+    content: "\ea14";
+}
+
+.icon-small-left::before {
+    content: "\ea15";
+}
+
+.icon-circle-08::before {
+    content: "\ea16";
+}
+
+.icon-globe::before {
+    content: "\ea17";
+}
+
+.icon-alarm::before {
+    content: "\ea18";
+}
+
+.icon-feedback::before {
+    content: "\ea19";
+}
+
+.icon-reload-2::before {
+    content: "\ea1a";
+}
+
+.icon-handshake::before {
+    content: "\ea1b";
+}
+
+.icon-c-add-2::before {
+    content: "\ea1c";
+}
+
+.icon-c-delete::before {
+    content: "\ea1d";
+}
+
+.icon-pin-3::before {
+    content: "\ea1e";
+}
+
+.icon-phone-2::before {
+    content: "\ea1f";
+}
+
+.icon-letter::before {
+    content: "\ea20";
+}
+
+.icon-bag-20::before {
+    content: "\ea21";
+}
+
+.icon-home::before {
+    content: "\ea22";
+}
+
+.icon-sort-tool::before {
+    content: "\ea23";
+}
+
+.icon-shopping-cart::before {
+    content: "\ea24";
+}
+
+.icon-input-checkbox::before {
+    content: "\ea25";
+}
+
+.icon-input-radio::before {
+    content: "\ea26";
+}
+
+.icon-pin-3-2::before {
+    content: "\ea28";
+}
+
+.icon-small-right::before {
+    content: "\ea29";
+}
+
+.icon-options::before {
+    content: "\ea2a";
+}
+
+.icon-check::before {
+    content: "\ea2b";
+}
+
+.icon-e-add::before {
+    content: "\ea2c";
+}
+
+.icon-circle-10::before {
+    content: "\ea2d";
+}
+
+.icon-coffee::before {
+    content: "\ea2e";
+}
+
+.icon-donut::before {
+    content: "\ea31";
+}
+
+.icon-c-check::before {
+    content: "\ea32";
+}
+
+.icon-contacts::before {
+    content: "\ea33";
+}
+
+.icon-shape-arrow::before {
+    content: "\ea34";
+}
+
+.icon-compass-3::before {
+    content: "\ea35";
+}
+
+.icon-cutlery::before {
+    content: "\ea36";
+}
+
+.icon-headphones-mic::before {
+    content: "\ea37";
+}
+
+.icon-logout::before {
+    content: "\ea38";
+}
+
+.icon-p-system-update::before {
+    content: "\ea39";
+}
+
+.icon-camera::before {
+    content: "\ea3a";
+}
+
+.icon-img-stack::before {
+    content: "\ea3b";
+}
+
+.icon-compass-05::before {
+    content: "\ea3c";
+}
+
+.icon-ic_location_on_48px::before {
+    content: "\ea3d";
+}
+
+.icon-paper-2::before {
+    content: "\ea3f";
+}
+
+.icon-wifi-off::before {
+    content: "\ea40";
+}
+
+.icon-c-remove::before {
+    content: "\ea41";
+}
+
+.icon-alarm-2::before {
+    content: "\ea42";
+}
+
+.icon-pizza-slice::before {
+    content: "\ea44";
+}
+
+.icon-grape-2::before {
+    content: "\ea45";
+}
+
