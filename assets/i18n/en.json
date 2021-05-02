@@ -1,0 +1,22 @@
+{
+
+  "login": {
+    "title": "login",
+    "description": "description",
+    "username": "username",
+    "password": "password",
+    "forget": "forget password",
+    "": ""
+  },
+  "now": "now",
+  "years": "years ago",
+  "mounths": "mounths ago",
+  "days": "days ago",
+  "houres": "houres ago",
+  "minutes": "minutes ago",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+}
